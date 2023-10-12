@@ -1,0 +1,192 @@
+.hero-2 {
+    position: relative;
+    padding-left: 270px;
+    background-color: #211e3b;
+bottom: 45px;
+    @media (max-width: 1600px) {
+        padding-left: 0;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 70%;
+        transform: translateY(-50%) rotate(-90deg) translateX(23%);
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.2);
+        font-size: 215px;
+        font-family: "Circular Std";
+        font-weight: 900;
+        letter-spacing: -0.03em;
+        left: -15px;
+        z-index: 2;
+        opacity: 0.15;
+
+        @media (max-width: 1600px) {
+            display: none;
+        }
+    }
+
+
+    .single-slide {
+        padding: 250px 0px;
+        z-index: 1;
+        position: relative;
+        padding-left: 90px;
+
+        @media (max-width: 1600px) {
+            padding: 180px 0px;
+            padding-left: 80px;
+        }
+
+        @media (max-width: 1199px) {
+            padding-left: 30px;
+        }
+
+        @media (max-width: 991px) {
+            padding: 160px 0px;
+        }
+
+        @media (max-width: 767px) {
+            padding: 130px 0px;
+        }
+
+        @media (max-width: 500px) {
+            padding: 100px 0px;
+        }
+
+        &::before,
+        &::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background-image: -webkit-gradient(linear, left top, right top, from(rgba(33, 30, 59, 0)), to(#211e3b));
+            background-image: -o-linear-gradient(right,  rgba(33, 30, 59, 0) 0%, #211e3b 100%);
+            background-image: linear-gradient(90deg, rgba(33, 30, 59, 0) 0%,#211e3b 100% );
+            background-image: -ms-linear-gradient(90deg, rgba(33, 30, 59, 0) 0%, #211e3b  100%);
+            z-index: -1;
+        }
+
+        .hero-contents {
+            position: relative;
+            text-align: end;
+            padding: 0 50px;
+
+            h1 {
+                color: #fff;
+                font-size: 90px;
+                font-weight: 900;
+                line-height: 110%;
+                margin-top: -10px;
+                text-transform: capitalize;
+
+                @media (max-width: 1600px) {
+                    font-size: 60px;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 40px;
+                }
+
+                @media (max-width: 500px) {
+                    font-size: 32px;
+                }
+
+                @media (max-width: 375px) {
+                    font-size: 30px;
+                }
+            }
+
+            p {
+                color: #fff;
+                font-weight: 500;
+                font-size: 24px;
+                margin-top: 20px;
+
+                @media (max-width: 767px) {
+                    font-size: 22px;
+                }
+
+            }
+
+            a {
+                margin-top: 35px;
+                margin-right: 20px;
+                color: #fff;
+
+                @media (max-width: 375px) {
+                    margin-top: 20px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .owl-theme {
+        .owl-dots {
+            display: none;
+            margin-top: 0;
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            .owl-dot {
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50px;
+                text-align: center;
+                padding: 15px;
+                position: relative;
+
+                span {
+                    background-color: #fff;
+                    display: block;
+                    margin: 0;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                }
+
+                &::before {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    background: transparent;
+                    border-width: 3px;
+                    border-color: #fff;
+                    border-style: solid;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    content: "";
+                }
+
+                // span {
+
+
+                //     &::before {
+                //         position: absolute;
+                //         left: -50%;
+                //         top: -50%;
+                //         transform: translate(1px);
+                //         background: transparent;
+                //         border-width: 3px;
+                //         border-color: #fff;
+                //         border-style: solid;
+                //         border-radius: 50%;
+                //         width: 24px;
+                //         height: 24px;
+                //         content: "";
+                //     }
+                // }
+
+            }
+        }
+    }
+
+}

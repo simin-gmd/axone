@@ -1,0 +1,23 @@
+.mr-30 {
+    margin-right: 30px;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+li {
+    list-style: none;
+    position: relative;
+}
+.overlay {
+    transition: all 0.2s ease-in-out;
+    width: 40%;
+    opacity: 0;
+    visibility: hidden;
+    cursor: url(../img/icon/close-icon.svg) 15 15, auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}

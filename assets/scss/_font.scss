@@ -1,0 +1,18 @@
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    src: url(../fonts/yekanbakh/YekanBakhFaNum08Fat.6a976aa.eot);
+    src: url(../fonts/yekanbakh/YekanBakhFaNum08Fat.6a976aa.eot?#iefix) format("embedded-opentype"), url(../fonts/yekanbakh/YekanBakhFaNum08Fat.f9b9741.woff) format("woff"), url(../fonts/yekanbakh/YekanBakhFaNum08Fat.338edf3.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: YekanBakhEn;
+    font-style: normal;
+    src: url(../fonts/yekanbakh/YekanBakhFa-En06Bold.197c102.eot);
+    src: url(../fonts/yekanbakh/YekanBakhFa-En06Bold.197c102.eot?#iefix) format("embedded-opentype"), url(../fonts/yekanbakh/YekanBakhFa-En06Bold.790b34d.woff) format("woff"), url(../fonts/yekanbakh/YekanBakhFa-En06Bold.d919685.ttf) format("truetype")
+}
+
+body{
+    font-family: YekanBakhEn;
+    background-color: #f1f1f1;
+}

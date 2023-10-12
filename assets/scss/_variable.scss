@@ -1,0 +1,32 @@
+
+ $white:#FFF;
+ $gray:#f4f7fd;
+ $base: #1085A9;
+ $black:#000;
+$textcolor: #696969;
+$section-bg: #211e3b;
+$theme-color: #086ad7;
+$second-color: #211e3b;
+$theme-color-2 : #ff5e14;
+$section-bg-2 : #eef4fc;
+
+$box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
+
+
+
+
+
+@mixin border-radius($r) {
+    -webkit-border-radius: $r;
+    -moz-border-radius: $r;
+    -ms-border-radius: $r;
+    border-radius: $r;
+}
+
+@mixin transition($transition) {
+    -webkit-transition: all $transition ease-in-out;
+    -moz-transition: all $transition ease-in-out;
+    -ms-transition: all $transition ease-in-out;
+    -o-transition: all $transition ease-in-out;
+    transition: all $transition ease-in-out;
+}
